@@ -2,7 +2,8 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.awt.Color;
-public class JPanelWithButton extends JPanel implements ActionListener
+
+class JPanelWithButton extends JPanel implements ActionListener
 {
    JButton button = new JButton("Press me");
    Color color;

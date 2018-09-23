@@ -1,7 +1,7 @@
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
-public class JPanelWithButton2 extends JPanel implements ActionListener
+class JPanelWithButton2 extends JPanel implements ActionListener
 {
    JButton button = new JButton("Press me");
    int count = 0;
